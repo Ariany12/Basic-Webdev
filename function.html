@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<p>This example calls a ConverttoDollar function to convert from króna Icelandic to Dollar:</p>
+<p id="demo"></p>
+<p> Inside function also push the amount of króna provide by user into the number array</p>
+<script>
+
+  function ConverttoDollar(k) {
+
+  let number = [800, 900];
+  number.push(1000);
+  console.log(number);
+
+return (k/141.28);
+}
+document.getElementById("demo").innerHTML = ConverttoDollar(1500);
+</script>
+
+</body>
+</html>
